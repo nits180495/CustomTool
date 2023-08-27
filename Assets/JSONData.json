@@ -1,0 +1,164 @@
+{
+	"templates":
+	[{
+		"templateType": 0,
+		"templateName": "Template1",
+		"parentID": "Root",
+		"uiProperties":
+	{
+        "anchoredPosition": { "x": 100.0,"y": 100.0},
+    "sizeDelta": {
+        "x": 200.0,
+        "y": 50.0
+    },
+    "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+    },
+    "pivot": {
+        "x": 0.5,
+        "y": 0.5
+    },
+    "position": {
+        "x": 10.0,
+        "y": 20.0,
+        "z": 30.0
+    },
+    "rotation": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+    }
+}
+},
+{
+		"templateType": 2,
+		"templateName": "Template2",
+		"parentID": "Template1",
+		"uiProperties":
+	{
+        "anchoredPosition": { "x": 100.0,"y": 100.0},
+    "sizeDelta": {
+        "x": 200.0,
+        "y": 50.0
+    },
+    "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+    },
+    "pivot": {
+        "x": 0.5,
+        "y": 0.5
+    },
+    "position": {
+        "x": 10.0,
+        "y": 20.0,
+        "z": 30.0
+    },
+    "rotation": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+    }
+},
+  "imageProperties": {
+    "sourceImage": "qualcycle",
+    "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "raycastTarget": true,
+    "raycastPadding": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "preserveAspect": false,
+    "maskable": true
+}
+},
+{
+		"templateType": 1,
+		"templateName": "Template3",
+		"parentID": "Template2",
+		"uiProperties":
+	{
+        "anchoredPosition": { "x": 100.0,"y": 100.0},
+    "sizeDelta": {
+        "x": 200.0,
+        "y": 50.0
+    },
+    "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+    },
+    "pivot": {
+        "x": 0.5,
+        "y": 0.5
+    },
+    "position": {
+        "x": 10.0,
+        "y": 20.0,
+        "z": 30.0
+    },
+    "rotation": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+    }
+},
+  "textProperties": {
+"sourceFont": "FontName",   
+ "textData": "Hello, World!",
+    "fontStyle": 0,
+    "fontSize": 24,
+    "lineSpacing": 0,
+    "bestFit": false,
+    "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "raycastTarget": true,
+    "raycastPadding": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "maskable": true
+}
+}
+	]
+}
