@@ -26,7 +26,13 @@ public class CreateImage : MonoBehaviour
 
         // Set Image UI properties based on JSON data
         Image image = uiElement.AddComponent<Image>();
-        image.sprite = AssetDatabase.LoadAssetAtPath < Sprite > (AssetDatabase.GUIDToAssetPath(AssetDatabase.FindAssets(imageProperties.sourceImage)[0]));
+
+        string[] sprite = AssetDatabase.FindAssets(imageProperties.sourceImage); 
+       if(sprite.Length > 0)
+        {
+            image.sprite = AssetDatabase.LoadAssetAtPath<Sprite>(AssetDatabase.GUIDToAssetPath(AssetDatabase.FindAssets(imageProperties.sourceImage)[0]));
+        }
+
         image.color = imageProperties.color;
         image.raycastTarget = imageProperties.raycastTarget;
         image.raycastPadding = imageProperties.raycastPadding;
